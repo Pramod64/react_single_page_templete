@@ -17,25 +17,38 @@ export default class Howwework extends Component {
 </p>
         </div>
         <div className='container'>
-        <div className='row'>
-          <div className='col img-145'>
-              <img src={photo1} alt="" />
-              <img classNam='img-45' src={photo4} alt="" />
-              <img classNam='img-45' img src={photo5} alt="" />
+          <div className='row'>
+            <div className='col-4'>
+                <img src={photo1} alt="" />
+            </div>
+            <div className='col-4'>
+                <img src={photo2} alt="" />
+            </div>
+            <div className='col-4'>
+                <img src={photo3} alt="" />
+            </div>
           </div>
-          <div className='col img-26'>
-              <img src={photo2} alt="" />
-              {/* <img className='large-img' src={photo6} alt="" /> */}
-          </div>
-          <div className='col img -3'>
-              <img src={photo3} alt="" />
-          </div>
-          <div className='col'>
 
+          <div className='background1'>
+
+          </div>
+
+          <div className='row-2' id='row-2'>
+            <div className='first-col'>
+              <div className='sub-f-c'>
+                <img src={photo4} alt="" />
+              </div>
+              <div className='sub-f-c'>
+                <img src={photo5} alt="" />
+              </div>
+            </div>
+            <div className='second-col'>
+              <img src={photo6} alt="" />
+            </div>
           </div>
         </div>
           
-        </div>
+   
         
       </>
     )
