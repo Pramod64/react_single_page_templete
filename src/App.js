@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Aboutus from './Components/Aboutus'
+import Getintouch from './Components/Getintouch'
 import Header from './Components/Header'
 import Howwework from './Components/Howwework'
 import Learn from './Components/Learn'
@@ -16,6 +17,7 @@ export default class App extends Component {
         <Welcome/>
         <Howwework />
         <Learn/>
+        <Getintouch/>
       </>
     )
   }

@@ -128,15 +128,13 @@
 }
 .img-freepik a{
     color: black;
-    
 }
 .img-freepik p{
     position: absolute;
     bottom: 100;
 }
 .top{
-    background-color: #d9dddffd;
-    
+    background-color: #d9dddffd; 
 }
 .welcome-head{
     padding-bottom: 80px;
@@ -282,6 +280,74 @@ justify-content: center;
     border-style: solid;
     border-width: 40px;
     border-color: white;
+}
+.our-vision{
+    margin-top: -110px;
+    background-color: white;
+    margin-right: -200px;
+    
+
+    
+}
+.vision-content{
+    padding-left: 10px;
+    
+}
+.wrapper{
+    background-color: rgb(22, 22, 22);
+}
+.get-in-touch h1{
+    color: #ED7218;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.get-in-touch p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.form-border{
+    /* background-color: white; */
+    margin:5px;
+    
+    
+}
+.background3{
+    background-color: #ED7218;
+    height: 200px;
+    width: 870px;
+    margin-top: 150px;
+    margin-left: 235px;
+    z-index: -1;
+}
+.form-group{
+    width: 800px;
+    background-color: white;
+    margin-left: 270px;
+    position: relative;
+    z-index: 1;
+    margin-top: -240px;
+}
+.form-labels{
+    margin-left: 60px;
+}
+.form-border Form{
+    padding:20px;
+    width: 300px;
+    float: right;
+    height: 300px;
+}
+.social-media{
+    margin-top: 60px;
+    align-items: center;
+}
+.social-media i{
+    /* margin: 2px; */
+    height: 50px;
+    width: 50px;
+    color: white;
 }
 
 

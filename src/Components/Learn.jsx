@@ -27,10 +27,23 @@ export default class Learn extends Component {
             </div>
             <div className='col-first'>
                 <img src={photo8} alt="" />
-                <div className='inner-circle'>
-                </div>
+                
+                
             </div>
-            
+            <div className='row'>
+                  <div className='col-6'>
+                      <div className='inner-circle'>
+                      </div>
+                  </div>
+                  <div className='col-3 our-vision'>
+                        <div className='vision-content'>
+                        <h1>OUR VISION</h1>
+                        <p>We thrive on new challenges and are at our best when a project is technically or logistically demanding and requires smart planning.</p>
+                        <p>Images from <a href="https://www.freepik.com/photos/city">Freepik</a> </p>
+                        <Button className='btn-readmore'>LEARN  MORE</Button>{' '}
+                        </div>
+                  </div>
+                </div>
 
         </div>
       </>
